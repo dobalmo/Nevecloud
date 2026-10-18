@@ -1,0 +1,21 @@
+# NEVECLOUD OS — MIHA Polyglot Auto
+# Android
+# Build: 2026-10-02T09:21:43.316Z
+# Benalmádena 36.5949N 4.5742W
+# 114 FIL • 162V 320T • 14 IAs • ◬ ⬡ ⬢ ◈ ⬔ ⬓ ⬒ ⬕
+# Coherencia C=0.906
+
+echo "Instalando NEVECLOUD OS Android..."
+echo "Toroide 114 FIL OK"
+echo "Cúpula 162V 320T OK"
+echo "14 IAs conectadas"
+echo "Offline 100% nevecloud-v3"
+echo "Listo en Benalmádena ☀"
+
+# Instrucciones:
+# adb install nevecloud-os.apk — Android 8+ / permite origen desconocido
+# 
+# 
+# 
+
+window.nevecloud.creative("Benalmádena cúpula Android");

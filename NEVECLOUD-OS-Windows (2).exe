@@ -1,0 +1,21 @@
+# NEVECLOUD OS — MIHA Polyglot Auto
+# Windows
+# Build: 2026-10-02T09:21:45.392Z
+# Benalmádena 36.5949N 4.5742W
+# 114 FIL • 162V 320T • 14 IAs • ◬ ⬡ ⬢ ◈ ⬔ ⬓ ⬒ ⬕
+# Coherencia C=0.903
+
+echo "Instalando NEVECLOUD OS Windows..."
+echo "Toroide 114 FIL OK"
+echo "Cúpula 162V 320T OK"
+echo "14 IAs conectadas"
+echo "Offline 100% nevecloud-v3"
+echo "Listo en Benalmádena ☀"
+
+# Instrucciones:
+# 
+# Inno Setup ES+EU — Ejecutar como admin, instala en C:\NEVECLOUD
+# 
+# 
+
+window.nevecloud.creative("Benalmádena cúpula Windows");
