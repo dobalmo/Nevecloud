@@ -1,0 +1,16 @@
+name = "nevecloudmihacloud"
+main = "src/index.js" # O la ruta real de tu punto de entrada del Worker
+compatibility_date = "2024-03-04"
+
+# Enrutamiento nativo alineado con la validación del CI/CD
+[site]
+bucket = "./dist" # Asegura compatibilidad con el fallback de wrangler pages
+
+[[kv_namespaces]]
+binding = "NEVE_STORAGE"
+id = "tu_kv_namespace_id_real"
+
+# Políticas de Variables de Entorno globales
+[vars]
+ENVIRONMENT = "production"
+AUTOR_MORAL = "Domingo Balsera Moraño - Benalmádena, Málaga"
