@@ -1,0 +1,14 @@
+cd ~/dobalmo/nevecloud
+unzip /tmp/dobalmo-gitgud-auto-matico.zip -d ./
+chmod +x gitgud-auto-matico.sh
+
+# Configura secrets en GitHub repo dobalmo/nevecloud Settings → Secrets:
+# CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID
+
+git add .github/workflows/deploy-auto.yml gitgud-auto-matico.sh
+git commit -m "feat: gitgud auto mático - deploy automático Worker Antequera + Pages Pop - 14 nodos auto bento% + R2 funcIonsali"
+git push origin main
+# → Action se ejecuta solo y despliega
+
+# O local auto mático:
+./gitgud-auto-matico.sh
